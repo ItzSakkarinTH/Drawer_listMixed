@@ -83,12 +83,12 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
         ),
         centerTitle: true,
         elevation: 0,
-        backgroundColor: const Color(0xFFE91E63),
+        backgroundColor: const Color(0xFF81C784),
         foregroundColor: Colors.white,
         flexibleSpace: Container(
           decoration: const BoxDecoration(
             gradient: LinearGradient(
-              colors: [Color(0xFFE91E63), Color(0xFFAD1457)],
+              colors: [Color(0xFF81C784), Color(0xFFA5D6A7)],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
             ),
@@ -133,7 +133,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.pink.withOpacity(0.2),
+            color: const Color(0xFFA5D6A7).withOpacity(0.2),
             blurRadius: 10,
             offset: const Offset(0, 5),
           ),
@@ -141,7 +141,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
       ),
       child: const Column(
         children: [
-          Icon(Icons.auto_awesome, size: 32, color: Color(0xFFE91E63)),
+          Icon(Icons.auto_awesome, size: 32, color: Color(0xFFA5D6A7)),
           SizedBox(height: 8),
           Text(
             'จัดอันดับความน่ารัก',
@@ -190,7 +190,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
         itemBuilder: (BuildContext context, int index) {
           return Card(
             elevation: 8,
-            shadowColor: Colors.pink.withOpacity(0.3),
+            shadowColor: const Color(0xFFA5D6A7).withOpacity(0.3),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(16),
             ),
@@ -207,7 +207,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
       tag: 'grid_$index',
       child: Card(
         elevation: 8,
-        shadowColor: Colors.pink.withOpacity(0.3),
+        shadowColor: const Color(0xFFA5D6A7).withOpacity(0.3),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         clipBehavior: Clip.antiAlias,
         child: Container(
@@ -264,7 +264,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
       children: [
         const Icon(
           Icons.format_list_numbered,
-          color: Color(0xFFE91E63),
+          color: Color(0xFFA5D6A7),
           size: 28,
         ),
         const SizedBox(width: 12),
@@ -280,7 +280,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
         Container(
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
           decoration: BoxDecoration(
-            color: const Color(0xFFE91E63),
+            color: const Color(0xFFA5D6A7),
             borderRadius: BorderRadius.circular(20),
           ),
           child: const Text(
@@ -318,7 +318,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
         tag: 'princess_$index',
         child: Card(
           elevation: 8,
-          shadowColor: Colors.pink.withOpacity(0.3),
+          shadowColor: const Color(0xFFA5D6A7).withOpacity(0.3),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(16),
           ),
@@ -377,7 +377,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
                   child: const Icon(
                     Icons.arrow_forward_ios,
                     size: 16,
-                    color: Color(0xFFE91E63),
+                    color: Color(0xFFA5D6A7),
                   ),
                 ),
               ),
@@ -511,7 +511,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
                     children: [
                       const Icon(
                         Icons.auto_awesome,
-                        color: Color(0xFFE91E63),
+                        color: Color(0xFFA5D6A7),
                         size: 24,
                       ),
                       const SizedBox(height: 8),
@@ -532,7 +532,7 @@ class _PrincessLoidHomePageState extends State<PrincessLoidHomePage>
                   child: ElevatedButton(
                     onPressed: () => Navigator.of(context).pop(),
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFFE91E63),
+                      backgroundColor: const Color(0xFFA5D6A7),
                       foregroundColor: Colors.white,
                       padding: const EdgeInsets.symmetric(vertical: 12),
                       shape: RoundedRectangleBorder(
